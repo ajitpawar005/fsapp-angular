@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { NO_ERRORS_SCHEMA, Component } from '@angular/core';
 
 @Component({
-    selector: 'jhi-footer',
-    templateUrl: './footer.component.html'
+    selector: 'fs-footer',
+    templateUrl: './footer.component.html',
+    styles: ['./footer.component.css']
 })
 export class FooterComponent {}

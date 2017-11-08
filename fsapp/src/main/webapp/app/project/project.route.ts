@@ -6,5 +6,4 @@ const PROJECT_ROUTES  = [
 ];
 
 export const projectState: Routes = [
-    { path : '', children: PROJECT_ROUTES }
-]  
+    { path : '', children: PROJECT_ROUTES } ]

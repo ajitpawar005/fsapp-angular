@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 
 import { appRoute } from '../app.route';
 import { LoginComponent } from '../account/login/login.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
 import { errorRoute } from './';
 
 const LAYOUT_ROUTES = [
@@ -12,10 +13,13 @@ const LAYOUT_ROUTES = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot([{path: '',component: LoginComponent}])
+        RouterModule.forChild([
+            { path: '', component: LoginComponent },
+            
+        ])
     ],
     exports: [
         RouterModule
     ]
 })
-export class LayoutRoutingModule {}
+export class LayoutRoutingModule { }

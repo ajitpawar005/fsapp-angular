@@ -1,6 +1,6 @@
 {
-  "name": "Fsapp",
-  "short_name": "Fsapp",
+  "name": "fsapp",
+  "short_name": "fsapp",
   "icons": [
       {
           "src": "./content/images/logo-jhipster.png",
