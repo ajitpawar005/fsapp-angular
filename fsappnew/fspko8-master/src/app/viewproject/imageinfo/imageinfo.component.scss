@@ -1,0 +1,95 @@
+$color_prairie_sand_approx: #9c3127;
+$white: #fff;
+$color_alto_approx: #ddd;
+$black: #000;
+$color_storm_dust_approx: #666;
+$black_30: rgba(0,0,0,.3);
+$color_fuscous_gray_approx: #535353;
+$color_shark_approx: #292929;
+$color_shady_lady_approx: #a9a9a9;
+$color_cod_gray_approx: #0c0c0c;
+$black_31: rgba(0,0,0,.31);
+$black_16: rgba(0,0,0,.16);
+$black_12: rgba(0,0,0,.12);
+$color_tundora_approx: #444;
+$color_cape_cod_approx: #404040;
+$color_bombay_approx: #afb2b3;
+$cyan_aqua: aqua;
+$color_chicago_approx: #565656;
+$color_star_dust_approx: #9f9f9f;
+$color_celeste_approx: #ccc;
+$color_black_haze_approx: #f7f7f7;
+$color_cararra_approx: #ebebeb;
+$black_20: rgba(0,0,0,.2);
+$color_storm_dust_43_approx: rgba(102, 102, 102, 0.43);
+
+.control-sidebar {
+	position: absolute;
+    z-index: 1010;
+    background: #535353 !important;
+	border: 2px solid #292929;
+	top: 113px;
+    min-height: 520px;
+    right: 0;
+    width: 230px;
+    -webkit-transition: right .3s ease-in-out;
+    transition: right .3s ease-in-out;
+	.closebtn {
+		color: $color_alto_approx;
+		font-size: 30px;
+		text-decoration: none;
+	}
+	.heading{
+	 p {
+		margin: 9px 0 0;
+		color: $color_alto_approx;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+	.imginfo1 {
+		margin-bottom: 0 !important;
+		float: left;
+		width: 100%;
+		background-color: $color_shark_approx;
+	}
+}
+	.nav-tabs > li.active > a {
+		border-bottom: 2px solid $color_prairie_sand_approx !important;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 !important;
+		border-right: $color_shark_approx !important;
+		border-top: $color_shark_approx !important;
+		border-left: $color_shark_approx !important;
+		background-color: $color_shark_approx !important;
+	}
+	
+	> .tab-content {
+		padding: 10px 15px;
+		p {
+			margin: 5px 0 0;
+			font-size: 12px;
+			color: $color_shady_lady_approx;
+		}
+	}
+}
+.tab-pane {
+	.textarea.form-control {
+		height: auto;
+		background-color: $color_storm_dust_approx;
+		border: 1px solid $color_shark_approx;
+		color: $color_shady_lady_approx;
+	}
+}
+.nav-tabs.nav-justified > li > a {
+	border: none !important;
+	color: $color_alto_approx !important;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0 0 !important;
+	background-color: $color_shark_approx;
+}
+#control-sidebar-settings-tab .divider {
+	border-bottom: solid thin $black;
+}
+#control-sidebar-settings-tab button.btn.btn-block {
+	background-color: $color_prairie_sand_approx !important;
+}

@@ -1,0 +1,20 @@
+{
+  "login": {
+    "title": "Login",
+    "intro": "For Any Assistance & Information, Please Contact:",
+    "remember": "Remember Me",
+    "username":"User Name",
+    "password":"Password",
+    "button":{
+      "title" : "Log In"
+    }
+  },
+  "dashboard":{
+    "title":"Select Project",
+    "selectProject":"Select Project",
+    "myRecent":"My Recent",
+    "favorites":"Favorites"
+  }
+
+  
+}

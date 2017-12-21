@@ -1,0 +1,18 @@
+{
+    "login":{
+    "title": "Iniciar sesión",
+    "intro": "Para cualquier asistencia e información, póngase en contacto con",
+    "remember": "Recuérdame",
+    "username":"Nombre de usuario",
+    "password":"Contraseña",
+    "button":{
+      "title" : "iniciar sesión"
+    }
+    },
+    "dashboard":{
+      "title":"Seleccionar proyecto",
+      "selectProject":"Seleccionar proyecto",
+      "myRecent":"Mi reciente",
+      "favorites":"Favoritos"
+    }
+}

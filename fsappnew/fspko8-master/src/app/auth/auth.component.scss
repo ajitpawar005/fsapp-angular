@@ -1,0 +1,49 @@
+@import "../../style/variables";
+
+.login_div {
+	background: $url_0 no-repeat center center fixed;
+	background-size: cover;
+	background-color: $color_storm_dust_approx;
+	height: 100vh;
+	
+	.loginform_container_section {
+		background: $color_tundora_90_approx;
+		padding-top: 50px;
+		height: 100vh;
+			.page-header {
+				padding-bottom: 0 !important;
+				margin: 75px 15px 20px;
+				border-bottom: 1px solid $color_gallery_approx;
+				h1 {
+					text-align: center;
+					font-weight: 800;
+					color: $white !important;
+				}
+			}
+			.login_data {
+				margin: 0 15px;
+
+				.checkbox {
+					label {
+					color: $white;
+					input{
+						display:block !important;
+					}
+				}
+			}
+				.contact-info {
+					margin-top: 15px;
+					color: $color_alto_approx;
+					font-size: 14px;
+					h6 {
+						margin: 7px 0 !important;
+						font-size: 14px;
+					   }
+				}
+				.selectpicker{
+					display: block !important;
+				}
+			}
+	}
+
+}
